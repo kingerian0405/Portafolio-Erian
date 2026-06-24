@@ -143,7 +143,7 @@ def build_sidebar(styles):
     items.append(Paragraph(f"📍 {UBICACION}", styles["contact"]))
     items.append(Paragraph(f"📞 {TELEFONO}", styles["contact"]))
     items.append(Paragraph(f"✉  {EMAIL}", styles["contact"]))
-    items.append(Paragraph(f"🌐 {PORTAFOLIO}", styles["contact"]))
+    items.append(Paragraph(f"🌐 <a href='{PORTAFOLIO}' color='#60a5fa'><u>Ver Portafolio Online</u></a>", styles["contact"]))
     items.append(Spacer(1, 10))
     
     items.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#34495e"), spaceAfter=4))
