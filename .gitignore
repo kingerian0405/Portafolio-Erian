@@ -1,0 +1,6 @@
+.vite/
+node_modules/
+.antigravity/
+.gemini/
+.DS_Store
+dist/
