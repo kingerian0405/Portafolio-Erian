@@ -37,6 +37,7 @@ NOMBRE      = "Erian Arrieche"
 UBICACION   = "Barquisimeto, Venezuela (Remote Friendly / Disponibilidad inmediata)"
 TELEFONO    = "+58-4120371426"
 EMAIL       = "Kingerian0405@gmail.com"
+PORTAFOLIO  = "https://6a3c6307faad110eda9abf58--chipper-chebakia-514042.netlify.app"
 
 RESUMEN = (
     "<b>Senior Tech Lead | Especialista en Arquitectura & Evolución de Sistemas</b><br/>"
@@ -142,6 +143,7 @@ def build_sidebar(styles):
     items.append(Paragraph(f"📍 {UBICACION}", styles["contact"]))
     items.append(Paragraph(f"📞 {TELEFONO}", styles["contact"]))
     items.append(Paragraph(f"✉  {EMAIL}", styles["contact"]))
+    items.append(Paragraph(f"🌐 {PORTAFOLIO}", styles["contact"]))
     items.append(Spacer(1, 10))
     
     items.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#34495e"), spaceAfter=4))
